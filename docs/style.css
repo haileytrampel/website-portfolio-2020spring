@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 p {
     font-size: 20px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -17,4 +21,11 @@ h1{
 
 h2{
   padding: 0px 0px 0px 40px
+}
+
+bowie{
+  background-image: 'images/bowie-background.png';
+    background-color: #4A90E2;
+    width: 200px;
+  box-sizing: border-box;;
 }
