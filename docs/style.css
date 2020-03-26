@@ -2,6 +2,36 @@
   box-sizing: border-box;
 }
 
+ul {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li.active {
+  background-color: green;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
 p {
     font-size: 20px;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -23,9 +53,20 @@ h2{
   padding: 0px 0px 0px 40px
 }
 
-bowie{
-  background-image: 'images/bowie-background.png';
-    background-color: #4A90E2;
-    width: 200px;
-  box-sizing: border-box;;
+div.background {
+  background: url(images/bowie-background.png) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
 }
