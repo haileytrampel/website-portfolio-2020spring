@@ -15,7 +15,7 @@ li {
   float: left;
 }
 
-li.active {
+.active {
   background-color: green;
 }
 
@@ -69,4 +69,19 @@ div.transbox p {
   font-weight: bold;
   color: #000000;
   opacity: 1;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
 }
