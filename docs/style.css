@@ -2,6 +2,29 @@
   box-sizing: border-box;
 }
 
+.stars{
+  background:
+linear-gradient(324deg, #232927 4%,   transparent 4%) -70px 43px,
+linear-gradient( 36deg, #232927 4%,   transparent 4%) 30px 43px,
+linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+
+linear-gradient(324deg, #232927 4%,   transparent 4%) -20px 93px,
+linear-gradient( 36deg, #232927 4%,   transparent 4%) 80px 93px,
+linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+background-color: #232927;
+background-size: 100px 100px;
+}
+
+.coloredbackground{
+  background-color: #e6eeff;
+}
+
 ul {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   list-style-type: none;
@@ -30,6 +53,51 @@ li a {
 li a:hover {
   background-color: #111;
 }
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
 p {
@@ -41,7 +109,7 @@ p {
 
 h1, h2{
   font-family: "Arial Black", Gadget, sans-serif;
-  color: #91aef8;
+  color: #5784f4
 }
 
 h1{
@@ -53,8 +121,21 @@ h2{
   padding: 0px 0px 0px 40px
 }
 
-div.background {
+.quote{
+  font-size: 2em;
+  color: #3498A4;
+  font-style: italic;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+div.bowiebackground {
   background: url(images/bowie-background.png) repeat;
+  border: 2px solid black;
+}
+
+div.storiesbackground{
+  background: url(images/vinylcopy.png) repeat;
   border: 2px solid black;
 }
 
@@ -84,4 +165,8 @@ img {
 
 img:hover {
   opacity: 1.0;
+}
+
+ital {
+  font-style: italic
 }
