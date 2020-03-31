@@ -1,4 +1,9 @@
 Images:
+Title: vinylpic.png
+	Author: Erik Arndt - https://thenounproject.com/etarndt/
+	Source: vinyl - https://thenounproject.com/term/vinyl/2474252/
+	License: CC-BY 3.0
+	Changes: modified into logo using GIMP
 
 Title: bowie-background.png
 	Author: Alexandra Burns - https://www.behance.net/alexandraburns
@@ -31,16 +36,18 @@ Articles:
 	https://www.theguardian.com/music/2016/jan/11/obituary-david-bowie
 	https://www.history101.com/30-bizarre-david-bowie-stories/
 	https://www.goodreads.com/author/quotes/10360.David_Bowie
-
 	https://www.eltonjohn.com/stories/ten-things-you-didnt-know-about-eltons-stage-wear
 	https://ultimateclassicrock.com/taron-egerton-elton-john-stage-clothes/
-
 	https://www.azer.com/aiweb/categories/magazine/63_folder/63_articles/63_clapton.html
 	https://www.mprnews.org/story/2019/03/27/the-love-story-behind-the-classic-song-layla
 	https://www.guitarworld.com/features/tragedy-inspires-eric-claptons-tears-heaven
-
 	https://www.loudersound.com/features/the-story-behind-the-song-one-way-or-another-by-blondie-1
 
 
-Other:
+Code Snippets:
 		stars background by Nicolas Gallagher: https://leaverou.github.io/css3patterns/#stars
+
+Tutorials:
+		https://logosbynick.com/wrap-text-around-circle-gimp/
+		https://www.internetingishard.com
+

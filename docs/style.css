@@ -134,7 +134,7 @@ div.bowiebackground {
   border: 2px solid black;
 }
 
-div.colorebackground{
+div.storiesbackground{
   background: url(images/vinylcopy.png) repeat;
   border: 2px solid black;
 }
@@ -169,4 +169,10 @@ img:hover {
 
 ital {
   font-style: italic
+}
+
+.logo{
+  height: 280px; /* Change this height to change the size of the cow */
+    background: url(images/logo.png) bottom center no-repeat;
+    background-size: contain;
 }
